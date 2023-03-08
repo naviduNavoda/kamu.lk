@@ -1,0 +1,101 @@
+:root{
+    --dvanila : #D6CDA4;
+    --lwhite : #E6E6E6;
+    --orange : #E7A600;
+    --black : #000000;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+.container{
+    background-color: var(--dvanila);
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+.outerbox{
+    position: absolute;
+    top: 9.9%;
+    left: 5%;
+    border: 3px solid var(--black);
+    width: 90%;
+    height: 80%;
+}
+
+.lsec,.Rsec{
+    float: left;
+    height: 100%;  
+}
+
+.lsec{
+    border-right: 3px solid var(--black);
+    width: 30%;
+    background-color: lightblue;
+}
+
+.Rsec{
+    width: 70%;
+}
+
+.Rsec #qSymbl {
+    width: 43%;
+    height: 269px;
+}
+.Rsec #titl {
+    width: 55%;
+    font-weight: bold;
+    font-size: xxx-large;
+    padding-left: 40px;
+}
+
+#titl,#qSymbl{
+    float: left;
+    padding-top: 20px;
+}
+
+#dtil{
+    position: absolute;
+    bottom: 128px;
+    right: 22%;
+    clear: both;
+
+}
+
+.Rsec #dtil {
+    font-weight: bold;
+    text-align: center;
+    width: 37%;
+    height: 20%;
+    font-size: larger;
+}
+
+.Rsec #circle{
+    border: 3px solid var(--black);
+    border-radius: 50%;
+    box-shadow: 3px 3px;
+    bottom: 24px;
+    right: 35%;
+}
+
+.Rsec #darrow,.Rsec #circle{
+    width: 88px;
+    height: 77px;
+    position: absolute;
+}
+.Rsec #darrow{
+    bottom: 8px;
+    right: -2%;
+}
+.Rsec #circle{
+    background-color: var(--orange);
+}
+.lsec>#newimg{
+    width: 365px;
+    height: 524px;
+}
